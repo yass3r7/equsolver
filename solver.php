@@ -172,9 +172,7 @@ function solve($equ) : Array
             $temp_arr = explode("x", $equ_right_side[$i]);
             if ($temp_arr[0] == "-") {
                 $temp_arr[0] = "-1";
-            } elseif ($temp_arr[0] == "+") {
-                $temp_arr[0] = "+1";
-            } else {
+            } elseif ($temp_arr[0] == "+" || $temp_arr[0] == NULL) {
                 $temp_arr[0] = "+1";
             }
 
@@ -235,11 +233,10 @@ function solve($equ) : Array
         $temp_arr = explode("x", $equ_left_side[$i]);
         if ($temp_arr[0] == "-") {
             $equ_left_side[$i] = -1;
-        } elseif ($temp_arr[0] == "+") {
-            $equ_left_side[$i] = 1;
-        } else {
+        } elseif ($temp_arr[0] == "+" || $temp_arr[0] == NULL) {
             $equ_left_side[$i] = 1;
         }
+
         if ($temp_arr[1] == NULL) {
             $equ_left_side[$i] = str_replace("x", "", $equ_left_side[$i]);
         } else {
@@ -249,7 +246,7 @@ function solve($equ) : Array
 
     $sumLeft = 0;
     foreach ($equ_left_side as $side_item) {
-        $sumLeft += floatval($side_item);
+        $sumLeft = $sumLeft + ($side_item * 1);
         // echo "<div>$side_item</div>";
     }
 
