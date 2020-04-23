@@ -99,7 +99,7 @@
                             <p>Send the request to: </p>
                             <div class="uri">https://equsolver.000webhostapp.com/solve.php?equ=EQUATION</div>
                             <p>Before you send the GET request make sure you did encode the URI component (to skip any special character issue).</p>
-<code>let URI = "https://appuzzle.000webhostapp.com/equsolver/solve.php?equ=EQUATION";
+<code>let URI = "https://equsolver.000webhostapp.com/solve.php?equ=EQUATION";
 let encodedURI = encodeURIComponent(uri);
 // Send the encodedURI in the GET request
 </code>
