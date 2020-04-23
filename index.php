@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EquSolver API</title>
     <!-- Font-awesome -->
     <link rel="stylesheet" href="assets/css/extra/all.min.css">
     <!-- Bootstrap -->
@@ -57,8 +57,8 @@
                             <p class="lead">Solve Your 1st degree equations quickly with the beautiful of EquSolver API.</p>
                             <p class="lead">EquSolver is an open source API based on PHP language. It helps to solve 1st degree equations quickly, easily and efficiently.</p>
                             <div class="links">
-                                <a href="#" class="btn btn-outline-main btn-lg">How to?</a>
-                                <a href="#" class="btn btn-outline-secondary btn-lg">
+                                <a href="#how" class="btn btn-outline-main btn-lg">How to?</a>
+                                <a href="https://github.com/yasser-boubani/equsolver" class="btn btn-outline-secondary btn-lg">
                                     View on GitHub
                                     <i class="fab fa-github"></i>
                                 </a>
@@ -131,7 +131,7 @@ let encodedURI = encodeURIComponent(uri);
                         <div class="demo-explain">
                             <p class="lead">Here is a practical demo to take a view of how could we use the <a href="#">EquSolver API</a>.</p>
                             <p class="lead">Just write your equation and the magic paper will solve it for you :)</p>
-                            <p class="lead">The complete source code of the <a href="#">EquSolver API</a> and that demo are available on <a href="#">GitHub</a>.</p>
+                            <p class="lead">The complete source code of the <a href="#home">EquSolver API</a> and that demo are available on <a href="https://github.com/yasser-boubani/equsolver">GitHub</a>.</p>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -164,7 +164,7 @@ let encodedURI = encodeURIComponent(uri);
 
         <!-- Start footer -->
         <footer class="text-light text-center">
-            Built with all <i class="fa fa-heart text-love"></i> by <a href="#">Yasser Boubani</a>.
+            Built with all <i class="fa fa-heart text-love"></i> by <a href="https://www.facebook.com/yasser.boubani">Yasser Boubani</a>.
         </footer>
         <!-- End footer -->
 
